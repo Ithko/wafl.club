@@ -1,0 +1,26 @@
+{% extends "site.html" %}
+{% block title %}404 Not Found{% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/css/generic.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ config.title }}">
+<meta property="og:title" content="404 Not Found">
+<meta property="og:description" content="Whatever you were looking for is not there :P">
+<meta property="og:url" content="https://nomi.gay/">
+<meta name="theme-color" content="#FFF7B6">
+<meta property="og:image" content="{{ config.extra.og_ico }}">
+{% endblock head %}
+
+{% block headertext %}NOT FOUND!!!{% endblock headertext %}
+
+{% block content %}
+<article class="box">
+	<h1>404 Not Found</h1>
+	<hr>
+	<p>Whatever you were looking for doesn't exist here, I'm sorry :(</p>
+	<a href="/">Main site</a>
+</article>
+{% endblock content %}
+

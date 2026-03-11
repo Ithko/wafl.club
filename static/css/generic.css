@@ -1,0 +1,11 @@
+article{
+	flex: 100%;
+}
+figure.img{
+	width: fit-content;
+	text-align: center;
+	margin: 15px 15px;
+}
+.side{
+	float: right;
+}

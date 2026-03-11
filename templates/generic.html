@@ -1,0 +1,41 @@
+{% extends "site.html" %}
+{% block title %}{{ page.title }} - {{ config.author }}{% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/css/generic.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ config.title }}">
+<meta property="og:title" content="{{ page.title }} - {{ config.author }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ page.permalink }}">
+<meta name="theme-color" content="#FFF7B6">
+{% if page.extra.ogimage %}
+<meta property="og:image" content="{{ config.base_url }}/media/{{ page.extra.og_image }}" />
+{% else %}
+<meta property="og:image" content="{{ config.extra.og_ico }}">
+{% endif %}
+{% if page.extra.video %}
+<meta property="og:video" content="{{ config.base_url }}/media/videos/{{ page.extra.og_video }}" />
+<meta property="og:video:type" content="{{ page.extra.og_video_type }}" />
+<meta property="og:video:width" content="{{ page.extra.og_video_width }}" />
+<meta property="og:video:height" content="{{ page.extra.og_video_height }}" />
+<meta property="og:video:alt" content="{{ page.extra.og_video_alt }}" />
+{% endif %}
+{% endblock head %}
+
+{% block headertext %}
+{% if page.extra.headertext %}
+{{ page.extra.headertext }}
+{% else %}
+{{ page.title }}
+{% endif %}
+{% endblock headertext %}
+
+{% block content %}
+<article class="box">
+	<h1>{{ page.title }}</h1>
+	<hr aria-hidden="true">
+	{{ page.content|safe }}
+</article>
+{% endblock content %}

@@ -1,0 +1,12 @@
+<figure class="img {% if class %}{{ class }}{% endif %}">
+	{% if href %}
+	<a href="{{ href }}">
+        <img src="/media/{{ path }}" alt="{{ alt }}">
+    </a>
+	{% else %}
+    <img src="/media/{{ path }}" alt="{{ alt }}">
+	{% endif %}
+    {% if cap %}
+    <figcaption>{{ cap | markdown(inline=true) | safe }}</figcaption>
+    {% endif %}
+</figure>

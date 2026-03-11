@@ -1,0 +1,180 @@
+{
+	"beings": [
+		{
+			"title": "I love women",
+			"alt_text": "An 88x31 animated button showing a snowy nighttime landscape linked to Nomi's website. On it we can see: a seal passing by, a black haired person in a dark dress waving an ancom flag, a falling star, the crescent moon and an aurora.",
+			"remote_url": "https://file.garden/aMCkWckcsFdLNPpz/button.gif",
+			"site_url": "https://nomi.gay/"
+		},
+		{
+			"title": "Herb",
+			"alt_text": "An 88x31 button: 'Herb' with a brown haired person on the left.",
+			"remote_url": "https://files.catbox.moe/16jsbr.png",
+			"site_url": "https://herbus-serwus.neocities.org/"
+		},
+		{
+			"title": "Mandarynki.eu",
+			"alt_text": "An 88x31 button: it is a 3-element slideshow with captions 'We love tangerines', 'co-hosted in EU and PL', and the mandarynki.eu domain name.",
+			"local_url": "mandarynki.gif",
+			"site_url": "https://mandarynki.eu/"
+		},
+		{
+			"title": "Green",
+			"alt_text": "A beige button with the word green, a non-binary checkmark, some vines with orange leaves, and a green gradient border.",
+			"local_url": "green.png",
+			"site_url": "https://brightgreendandelions.neocities.org/"
+		},
+		{
+			"title": "Cadence",
+			"alt_text": "The text &quot;cadence now!&quot; on a purple background. There is a moon-shaped logo on the left side and a tiny star in the bottom right.",
+			"local_url": "cadence.png",
+			"site_url": "https://cadence.moe/"
+		},
+		{
+			"title": "Lars",
+			"alt_text": "An 88x31 button: 'hi i'm lars' with a brown haired stick figure next to it",
+			"local_url": "lars.png",
+			"site_url": "https://larsfrommars.neocities.org/"
+		},
+		{
+			"title": "Dimden",
+			"alt_text": "The text 'DIMDEN' in big cyan block letters on a dark background, and 'ホテル' (hotel in japanese) in purple under that. There is a slight CRT scanline effect applied to the whole thing.",
+			"local_url": "dimden.gif",
+			"site_url": "https://dimden.dev/"
+		},
+		{
+			"title": "Luzie",
+			"alt_text": "An 88x31 button: Animated 'Luzie's Kennel' text in a rainbow gradient on a black background",
+			"local_url": "luzie.gif",
+			"site_url": "https://luziekennel.nekoweb.org/"
+		},
+		{
+			"title": "Fabryka Jaboli",
+			"alt_text": "jabol",
+			"local_url": "jabol-88x31.png",
+			"site_url": "https://fabrykajabo.li/"
+		}
+	],
+	"other": [
+		{
+			"title": "Powered by estrogen",
+			"alt_text": "An 88x31 button, showing a rotating estrogen pill with text 'Powered by estrogen' next to it.",
+			"local_url": "estropill.gif",
+			"site_url": "https://transfemscience.org/articles/transfem-intro/"
+		},
+		{
+			"title": "ArchLinux",
+			"alt_text": "An 88x31 button, showing the arch linux logo",
+			"local_url": "archlinux.png",
+			"site_url": "https://archlinux.org/"
+		},
+		{
+			"title": "Made with Neovim",
+			"alt_text": "An 88x31 button, showing the neovim logo and text 'made with neovim'",
+			"local_url": "neovim.png",
+			"site_url": "https://neovim.io/"
+		},
+		{
+			"title": "Created by a human with a heart",
+			"alt_text": "An 88x31 button, showing a heart on rainbow and text 'created by a human with a heart'",
+			"local_url": "created-by-a-human-with-a-heart.png",
+			"site_url": "https://cadence.moe/blog/2024-10-05-created-by-a-human-badges/"
+		},
+		{
+			"title": "Trans rights now!",
+			"alt_text": "An 88x31 button, showing a trans flag and text 'Trans rights now!'",
+			"local_url": "transnow2.png",
+			"site_url": "https://tranzycja.pl/en/"
+		},
+		{
+			"title": "Keep the web free, say no to web3!",
+			"alt_text": "An 88x31 button, showing 'keep the web free, say no to web3' text word by word",
+			"local_url": "noweb3.gif",
+			"site_url": "https://yesterweb.org/no-to-web3/"
+		},
+		{
+			"title": "uBlock Origin, now!",
+			"alt_text": "An 88x31 button, showing the ublock origin logo and text 'uBlock Origin, now!'",
+			"local_url": "ublock.png",
+			"site_url": "https://ublockorigin.com/"
+		},
+		{
+			"title": "Rust programming language",
+			"alt_text": "An 88x31 button, showing the rust lang logo",
+			"local_url": "rust.png",
+			"site_url": "https://rust-lang.org/"
+		},
+		{
+			"title": "This site is Miku approved",
+			"alt_text": "An 88x31 button, showing Miku next to a 'this site is Miku approved' text",
+			"local_url": "miku.png",
+			"site_url": "https://ooo.eeeee.ooo/"
+		},
+		{
+			"title": "Join the fediverse!",
+			"alt_text": "An 88x31 button, showing 'Join the fediverse!' text next to the fediverse logo.",
+			"local_url": "fedi.gif",
+			"site_url": "https://jointhefediverse.net/"
+		},
+		{
+			"title": "Trans your gender!",
+			"alt_text": "An 88x31 button, showing 'Trans your gender!' text on a trans flag.",
+			"local_url": "trans_your_gender.png",
+			"site_url": "https://genderdysphoria.fyi/"
+		},
+		{
+			"title": "Firefox (fuck chromium)",
+			"alt_text": "An 88x31 button, showing 'Take back the web' text next to the firefox logo.",
+			"local_url": "firefox.png",
+			"site_url": "https://www.mozilla.org/en-US/firefox/new/"
+		},
+		{
+			"title": "Free Palestine",
+			"alt_text": "An 88x31 button, showing 'Free Palestine' text next to a black long haired person with a palestinian flag.",
+			"local_url": "freepalestine.png",
+			"site_url": "https://arab.org/click-to-help/palestine/"
+		},
+		{
+			"title": "Google Chrome IS EVIL! (so is whole Google tbf)",
+			"alt_text": "An 88x31 button, showing 'Google Chrome IS EVIL!' text next to a spinning pentagram.",
+			"local_url": "chrmevil.gif",
+			"site_url": "https://github.com/ungoogled-software/ungoogled-chromium/"
+		},
+		{
+			"title": "Powered by Linux (Xenia)",
+			"alt_text": "An 88x31 button, showing 'Powered by Linux' text next to the alternative Linux mascot, Xenia.",
+			"local_url": "xenia.png",
+			"site_url": "https://xenia-linux-site.glitch.me/"
+		},
+		{
+			"title": "NFTs? No Fucking Thanks",
+			"alt_text": "An 88x31 button, showing 'No Fucking Thanks' text (with N, F and T in red) next to a happy emoji bonking NFT monkey.",
+			"local_url": "nft.gif",
+			"site_url": "https://www.web3isgoinggreat.com/"
+		},
+		{
+			"title": "Transbian",
+			"alt_text": "An 88x31 button, showing trans flag combined with lesbian flag.",
+			"local_url": "transbian.png",
+			"site_url": "https://badge.les.bi/"
+		},
+		{
+			"title": "Piracy, now!",
+			"alt_text": "An 88x31 button, showing text 'Piracy Now!' next to a Jolly Roger.",
+			"local_url": "piracy.png",
+			"site_url": "https://insights.uksg.org/articles/10.1629/uksg.333"
+		},
+		{
+			"title": "This machine kills fascists",
+			"alt_text": "An 88x31 button, showing a 'this machine kills fascists' text next to a cog with red, green and blue vertical stripes in it.",
+			"local_url": "kill-fascists.png",
+			"site_url": "https://woodyguthrie.org/"
+		},
+		{
+			"title": "Support Wikipedia",
+			"alt_text": "An 88x31 button, 'support wikipedia' text next one of the Wikipedia logos.",
+			"local_url": "wikipedia.png",
+			"site_url": "https://wikimediafoundation.org/"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"sites": [
+		{
+			"label": "Main",
+			"href": "/",
+			"icon": "home"
+		},
+		{
+			"label": "About",
+			"href": "/about/",
+			"icon": "face"
+		},
+		{
+			"label": "Blog",
+			"href": "/blog/",
+			"icon": "typewriter"
+		},
+		{
+			"label": "Status",
+			"href": "https://status.nomi.gay/status/",
+			"icon": "poll"
+		}
+	]
+}

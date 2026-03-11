@@ -1,0 +1,6 @@
+{% macro old_icon(icon) %}
+	<i class="icon" aria-hidden="true">{% set data = load_data(path="static/media/md-icons/" ~ icon ~ ".svg") %}{{ data | safe }}</i>{#- -#}
+{% endmacro icon %}
+{% macro icon(icon) %}
+	<i class="icon mask" aria-hidden=true style="mask-image: url('/media/md-icons/{{ icon }}.svg');"></i>{#- -#}
+{% endmacro micon %}

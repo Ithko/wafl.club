@@ -1,0 +1,63 @@
+{% extends "site.html" %}
+{% block title %}{{ config.title }}{% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/css/index.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wafl club's website">
+<meta property="og:title" content="Welcome!">
+<meta property="og:description" content="Yes, it really is our website">
+<meta property="og:url" content="{{ config.base_url }}">
+<meta property="og:image" content="{{ config.extra.og_ico }}">
+<meta name="theme-color" content="#FFF7B6">
+{% endblock head %}
+
+{% block headertext %}Main Site{% endblock headertext %}
+
+{% block content %}
+<article class="box">
+	<h2>Welcome to wafl club's website<noscript> without javascript</noscript>!</h2>
+	<hr>
+	<h3>Hi, welcome into the <a href="/about/">Wafl Den</a>.</h3>
+	<noscript>
+		<p>The only thing that uses javascript on this website are the webrings. You are not really missing out on a lot, lmao.</p>
+	</noscript>
+	<p>This is wafl club's very own, personal cave - built with <a href="https://getzola.org/">Zola</a>. Feel free to explore as much as you want (althrough this place is still unfinished).</p>
+	<p>I have no idea when will the next site expansion come.</p>
+	<h3>Stuff I do here</h3>
+	<p>The wafl <a href="/blog/">blog</a> will get rolling one day. If you are reading this, it means that this day has not arrived yet.</p>
+	<p>I am really sorry :P</p>
+	<h5>Work in progress...</h5>
+	<div id="wcb" class="carbonbadge wcb-d"></div>
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+</article>
+<div class="right_section">
+	<div class="right_box box">
+		<h2>Links</h2>
+		<hr>
+		<ul class="links">
+			<li><a href="https://status.nomi.gay/status/">{{ macros::icon(icon="link-variant") }}Status page</a></li>
+			<li>More stuff about to come soon™</li>
+		</ul>
+	</div>
+</div>
+<footer class="box">
+	{% set buttons = load_data(path="content/data/88x31.json") %}
+	<h4>Generic 88x31's (not mine)</h4>
+	<div class="buttons">
+		{% for being in buttons["other"] %}
+		<div class="button"><a href="{{ being.site_url }}" target="_blank"><img src="{% if being.remote_url %}{{ being.remote_url }}{% else %}/media/88x31/other/{{ being.local_url }}{% endif %}" title="{{ being.title }}" alt="{{ being.alt_text }}" loading="lazy"></a></div>
+		{% endfor %}
+	</div>
+	<p>
+	</p>
+	<h4>Frens and other beings I found while browsing the web (very much not mine, except the first one):</h4>
+	<div class="buttons">
+		{% for being in buttons["beings"] %}
+		<div class="button"><a href="{{ being.site_url }}" target="_blank"><img src="{% if being.remote_url %}{{ being.remote_url }}{% else %}/media/88x31/beings/{{ being.local_url }}{% endif %}" title="{{ being.title }}" alt="{{ being.alt_text }}" loading="lazy"></a></div>
+		{% endfor %}
+	</div>
+	Content (<a href="https://github.com/Ithko/nomi.gay">source</a>) licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">{{ macros::icon(icon="copyright") }}CC BY-NC-SA 4.0</a>. Made by <a href="/about/">Nomi</a>.
+</footer>
+{% endblock content %}

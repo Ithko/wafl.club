@@ -1,0 +1,25 @@
+base_url = "https://wafl.club"
+author = "Nomi"
+title="Wafl club site"
+
+default_language = "en"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+render_emoji = true
+# bottom_footnotes = true
+external_links_target_blank = true
+
+[markdown.highlighting]
+error_on_missing_language = true
+
+style = "inline"
+
+theme = "tokyo-night"
+
+[extra]
+og_ico = "https://wafl.club/media/ico/ico192x192.png"
