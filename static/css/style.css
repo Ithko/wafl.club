@@ -169,6 +169,13 @@ hr{
 	display: block;
 	width: 100%;
 }
+.buttons{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 0 20px 10px;
+}
 .webrings{
 	padding: 10px;
 	height: 100%;

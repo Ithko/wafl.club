@@ -42,22 +42,22 @@
 		</ul>
 	</div>
 </div>
-<footer class="box">
-	{% set buttons = load_data(path="content/data/88x31.json") %}
-	<h4>Generic 88x31's (not mine)</h4>
-	<div class="buttons">
-		{% for being in buttons["other"] %}
-		<div class="button"><a href="{{ being.site_url }}" target="_blank"><img src="{% if being.remote_url %}{{ being.remote_url }}{% else %}/media/88x31/other/{{ being.local_url }}{% endif %}" title="{{ being.title }}" alt="{{ being.alt_text }}" loading="lazy"></a></div>
-		{% endfor %}
-	</div>
-	<p>
-	</p>
-	<h4>Frens and other beings I found while browsing the web (very much not mine, except the first one):</h4>
-	<div class="buttons">
-		{% for being in buttons["beings"] %}
-		<div class="button"><a href="{{ being.site_url }}" target="_blank"><img src="{% if being.remote_url %}{{ being.remote_url }}{% else %}/media/88x31/beings/{{ being.local_url }}{% endif %}" title="{{ being.title }}" alt="{{ being.alt_text }}" loading="lazy"></a></div>
-		{% endfor %}
-	</div>
-	Content (<a href="https://github.com/Ithko/nomi.gay">source</a>) licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">{{ macros::icon(icon="copyright") }}CC BY-NC-SA 4.0</a>. Made by <a href="/about/">Nomi</a>.
-</footer>
+<!-- <footer class="box"> -->
+<!-- 	{% set buttons = load_data(path="content/data/88x31.json") %} -->
+<!-- 	<h4>Generic 88x31's (not mine)</h4> -->
+<!-- 	<div class="buttons"> -->
+<!-- 		{% for being in buttons["other"] %} -->
+<!-- 		<div class="button"><a href="{{ being.site_url }}" target="_blank"><img src="{% if being.remote_url %}{{ being.remote_url }}{% else %}/media/88x31/other/{{ being.local_url }}{% endif %}" title="{{ being.title }}" alt="{{ being.alt_text }}" loading="lazy"></a></div> -->
+<!-- 		{% endfor %} -->
+<!-- 	</div> -->
+<!-- 	<p> -->
+<!-- 	</p> -->
+<!-- 	<h4>Frens and other beings I found while browsing the web (very much not mine, except the first one):</h4> -->
+<!-- 	<div class="buttons"> -->
+<!-- 		{% for being in buttons["beings"] %} -->
+<!-- 		<div class="button"><a href="{{ being.site_url }}" target="_blank"><img src="{% if being.remote_url %}{{ being.remote_url }}{% else %}/media/88x31/beings/{{ being.local_url }}{% endif %}" title="{{ being.title }}" alt="{{ being.alt_text }}" loading="lazy"></a></div> -->
+<!-- 		{% endfor %} -->
+<!-- 	</div> -->
+<!-- 	Content (<a href="https://github.com/Ithko/nomi.gay">source</a>) licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">{{ macros::icon(icon="copyright") }}CC BY-NC-SA 4.0</a>. Made by <a href="/about/">Nomi</a>. -->
+<!-- </footer> -->
 {% endblock content %}
